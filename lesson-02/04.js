@@ -5,4 +5,5 @@ const giveMeRightCondition = (value1, value2, maximum) => {
         console.log('Something wrong!');
     }
 }
+
 giveMeRightCondition(100, 100, 200);
