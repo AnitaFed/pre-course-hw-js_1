@@ -11,5 +11,5 @@ let passportCopy = JSON.parse(JSON.stringify(passportWithAddress));
 
 passportCopy.address.city = 'Bobryisk';
 
-console.log("LA:", passportWithAddress);
-console.log("Bobryisk:", passportCopy);
+console.log(passportWithAddress.city);
+console.log(passportCopy.address.city);
